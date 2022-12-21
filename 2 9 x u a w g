@@ -1,0 +1,9 @@
+confirm("novaware.xyz ; execute this option?")
+true
+confirm("novaware.xyz ; execute this option?")
+false
+const answer = confirm("novaware.xyz ; execute this option?")
+if (answer) {
+	console.log("User has executed infinite cookie's option.");
+}
+javascript:Game.cookies= Game.cookies + 100000000000000000000000990;
